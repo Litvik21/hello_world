@@ -2,6 +2,9 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        char[] chars = {'H','e','l','l','o','M','a','t','e','s'};
+        for (int i = 0; i < chars.length; i++) {
+            System.out.println(chars[i]);
+        }
     }
 }
